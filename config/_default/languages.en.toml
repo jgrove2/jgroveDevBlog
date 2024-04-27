@@ -1,0 +1,18 @@
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Jgrove.dev"
+
+[params]
+displayName = "EN"
+isoCode = "en"
+rtl = false
+dateFormat = "2 January 2006"
+logo = "treeLogo.png"
+description = "Personal blog of Justin Grove covering software engineering and hobbies"
+
+[author]
+name = "Justin Grove"
+image = "profile.jpeg"
+headline = "Welcome to my site!"
+links = [ { email = "justin.grove42@gmail.com" }, { github = "https://github.com/jgrove2" }, { linkedin = "https://www.linkedin.com/in/justinwgrove/" } ]
