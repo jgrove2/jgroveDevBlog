@@ -11,7 +11,7 @@ smartTOC = true
 highlightCurrentMenuArea = true
 
 [header]
-layout = "basic"
+layout = "fixed-fill-blur"
 
 [footer]
 showMenu = true
@@ -23,11 +23,11 @@ showScrollToTop = true
 [homepage]
 layout = "hero"
 showRecent = "showRecent"
-showRecentItems = 5
+showRecentItems = "5"
 showMoreLink = "showMoreLink"
 showMoreLinkDest = "/posts"
-cardView = false
-cardViewScreenWidth = "cardViewScreenWidth"
+cardView = "disable"
+cardViewScreenWidth = false
 layoutBackgroundBlur = "True"
 homepageImage = "canyon.JPG"
 
@@ -38,10 +38,10 @@ showLikes = false
 showDateOnlyInArticle = false
 showDateUpdated = false
 showAuthor = true
-showHero = false
+showHero = ""
 layoutBackgroundBlur = true
 layoutBackgroundHeaderSpace = true
-showBreadcrumbs = false
+showBreadcrumbs = "showBreadcrumbs"
 showDraftLabel = true
 showEdit = false
 editAppendPath = true
@@ -55,21 +55,23 @@ showTaxonomies = false
 showAuthorsBadges = false
 showWordCount = true
 showZenMode = false
+heroStyle = "basic"
 
 [list]
 showHero = false
 layoutBackgroundBlur = true
 layoutBackgroundHeaderSpace = true
 showBreadcrumbs = "showBreadcrumbs"
-showSummary = false
+showSummary = "showSummary"
 showViews = false
 showLikes = false
 showTableOfContents = "showTableOfContents"
 showCards = false
 groupByYear = true
-cardView = false
+cardView = "cardView"
 cardViewScreenWidth = false
 constrainItemsWidth = false
+heroStyle = "basic"
 
 [sitemap]
 excludedKinds = [ "taxonomy", "term" ]
@@ -77,7 +79,7 @@ excludedKinds = [ "taxonomy", "term" ]
 [taxonomy]
 showTermCount = true
 showHero = false
-showBreadcrumbs = false
+showBreadcrumbs = "showBreadcrumbs"
 showViews = false
 showLikes = false
 showTableOfContents = false

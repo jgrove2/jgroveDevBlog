@@ -1,5 +1,5 @@
 ---
-title: "Creating a Blog with Hugo and Blowfish"
+title: "Creating a Blog with Hugo"
 date: 2024-04-27
 draft: false
 description: "Retrospective on creating first blog with hugo and blowfish."
