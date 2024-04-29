@@ -8,7 +8,7 @@ displayName = "EN"
 isoCode = "en"
 rtl = false
 dateFormat = "2 January 2006"
-logo = "treeLogo.png"
+logo = "logo.png"
 description = "Personal blog of Justin Grove covering software engineering and hobbies"
 
 [author]
