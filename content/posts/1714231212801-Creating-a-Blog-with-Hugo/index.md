@@ -1,7 +1,7 @@
 ---
 title: "Creating a Blog with Hugo"
 date: 2024-04-27
-draft: false
+draft: true
 description: "Retrospective on creating first blog with hugo and blowfish."
 tags: ["hugo", "blowfish"]
 ---
